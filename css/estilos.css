@@ -1,0 +1,187 @@
+.login-bg{
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url('../img/fundo-login.jpg') no-repeat;
+	-webkit-background-size: cover;  
+	-o-background-size: cover;  
+	-moz-background-size: cover;  
+	background-size: cover;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+}
+
+
+div.card{
+	margin: 40px auto;
+	opacity: 0.8;
+	position: relative;
+    z-index: 5;
+
+}
+
+
+/** PAINEL ADMIN **/
+.menu-container{
+	box-sizing: border-box;
+	min-width: 20%;
+	min-height: 100%;
+	background-color: rgb(27,27,27);
+	
+	color: white;
+	position: absolute;
+	padding-top: 30px;
+}
+
+.menu-container ul{
+	display: block;
+	padding:0;
+	list-style-type:none
+}
+
+.menu-container ul li{
+	box-sizing: border-box;
+	border-bottom:1px solid rgba(12,12,12, 0.8);
+	border-top:1px solid rgba(84,84,84, 0.3);
+	border-left: 8px solid rgb(27,27,27);
+	margin:0;
+	padding:15px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.menu-container ul li:hover, .menu-container ul li.ativo{
+	border-left: 8px solid #555656;
+}
+
+.menu-container ul li i{
+	position: absolute;
+}
+
+.menu-container ul li a{
+	box-sizing: border-box;
+	position: relative;
+	margin-left: 40px;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+}
+
+#img-logo:hover{
+		border-left: 8px solid rgb(27,27,27);
+}
+
+
+/* Parte da dash - Área de trabalho */
+.work-container{
+	box-sizing: border-box;
+	min-width: 75%;
+	min-height: 100%;
+	
+	display: block;
+	position: absolute;
+	z-index: -1;
+	padding-left: 20%;
+}
+
+.work-container div.aba{
+	display: none;
+	padding: 15px;
+
+}
+
+.work-container div.aba.ativa{
+	display: inherit;
+	width: 820px;
+	height: 100%;
+	position: absolute;
+	
+}
+
+.work-container fieldset{
+	border: 2px solid #2c2e2e;
+	padding: 20px;
+	border-radius: 12px;
+}
+
+.work-container fieldset legend{
+	width: auto;
+	font-size:18px;
+	padding: 0 10px;
+	margin-bottom: 0;
+}
+
+
+.modulo-item{
+	width: 100%;
+	height: 100%;
+	border:5px solid transparent;
+	border-radius: 15px;
+	padding-top: 20px;	
+	color: white;
+	/*border: 2px solid rgb(27,27,27);*/
+	background-color: rgb(27,27,27);
+	box-sizing: border-box;
+	cursor: pointer;
+	/*border-width:5px;  
+    border-style:double;
+    border-color: white;*/
+}
+
+.modulo-item:hover{background-color:#1b1b1bbf;}
+
+.modulo-item p{
+	margin-bottom: 0;
+	text-align:center;
+}
+
+.modulo-item i{
+	text-align:center;
+	font-size: 70px;
+	margin: 0 auto;
+	
+}
+
+iframe{
+	margin:0;
+	border:0;
+	width: 100%;
+	height:300px;
+}
+
+.table-dark{
+	background-color: rgb(27,27,27);
+	color: white;
+}
+
+
+.btn-success{
+	background:rgb(27,27,27);
+	border-color:rgb(27,27,27)
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:focus,.btn-success:not([disabled]):not(.disabled).active, .btn-success:not([disabled]):not(.disabled):active, .show>.btn-success.dropdown-toggle{
+	background:#1b1b1bbf;
+	border-color:#1b1b1bbf;
+}
+
+.btn-danger{
+	background:rgb(27,27,27);
+	border-color:rgb(27,27,27);
+	border-bottom:2px solid rgba(12,12,12, 0.8);
+	border-top:2px solid rgba(84,84,84, 0.3);
+	border-right:2px solid rgba(12,12,12, 0.8);
+	border-left:2px solid rgba(84,84,84, 0.3);
+
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:focus,.btn-danger:not([disabled]):not(.disabled).active, .btn-danger:not([disabled]):not(.disabled):active, .show>.btn-danger.dropdown-toggle{
+	background:#C1BDB3;
+	border-color:#C1BDB3;
+}
